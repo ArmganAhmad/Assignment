@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            
+        }
+        .header{
+            display: flex;
+            flex-direction: row;
+            height: 35px;
+           
+            background-color: #8452b5;
+            margin: 0px;
+        }
+        .saleimg{
+            margin-left:15px ;
+            height: 25px;
+            padding: 3px;
+        }
+        .help{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            align-content: right;
+            position: absolute;
+            left: 91%;
+            margin-top:8px ;
+        }
+        .nav{
+            display: flex;
+            flex-direction: row;
+            height: 70px;
+            
+        }
+        .logoimg{
+            margin: 15px;
+        }
+        .nav1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: absolute;
+            left: 40%;
+            margin-top: 30px;
+        }
+        .bgcol{
+            background-color: #e4cfbf;
+            
+        }
+        .search{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            border-radius: 50px;
+            background-color: white;
+            height: 30px;
+            width:200px ;
+            position: absolute;
+            left: 82%;
+            margin-top: 25px;
+        }
+        .srchimg{
+            height: 30px;
+            margin-right: 10px;
+            border-radius: 50px;
+        }
+        .input{
+            border: none;
+            outline: none;
+            
+        }
+        .bagimg{
+            height: 33px;
+        }
+        .bagbtn{
+            height: 33px;
+            width: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:#e4cfbf;
+            border: none;
+            position: absolute;
+            left: 97%;
+            margin-top: 25px;
+        }
+        .nav2{
+            margin-top: 110px;
+        }
+        .botm{
+            display: flex;
+            flex-direction: row;
+        }
+        .detail{
+            margin-left: 50px;
+            margin-bottom: 60px;
+
+        }
+        .list{
+            margin: 0px;
+        }
+        .sg{
+            display: flex;
+            justify-content: right;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .sho{
+            display: flex;
+            flex-direction: row;
+        }
+        #iimg{
+            height: 58px;
+        }
+        .cartbtn{
+            border-radius: 50px;
+            background-color: rgb(4, 13, 112);
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            width: 200px;
+            margin-top: 80px;
+        }
+        #cartbutn{
+            border: none;
+            background-color:rgb(4, 13, 112);
+            color: white;
+            margin: 1px;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <img class="saleimg" src="sale_img.png" alt="image not found">
+            <div class="help">
+                <a href="#"><b>Sales Day</b> | </a>
+                <a href="#"><b> Help</b></a>
+            </div>
+        </div>
+        
+        <div class="bgcol">
+            <div class="nav">
+                <div>
+                    <img class="logoimg" src="logo_img.png" alt="image not found">
+                </div>
+                <div class="nav1">
+                    <nav style="text-align: center;">
+                        <a href="#">Featured</a>
+                        <a href="#">Adults</a>
+                        <a href="#">Children</a>
+                        <a href="#">Accessories</a>
+                        <a href="#">Instagram</a>
+                    </nav>
+                </div>
+
+                <div class="search">
+                    <img class="srchimg" src="search.png">
+                    <input class="input" type="search" placeholder="Search">
+                </div>
+                <div>
+                    <button class="bagbtn"><img class="bagimg" src="bag1.png"></button>
+                    
+                </div>
+            </div>
+
+            <div class="nav2">
+                <a href="#">Home</a>
+                <a href="#"> / Sneakers</a>
+                <a href="#">/ Sales Day</a>
+            </div>
+            <div class="botm">
+                <div class="imgs">
+                    <img src="shoe1.png" alt="">
+                    <img src="shoe2.png" alt="">
+                </div>
+                <div class="detail">
+                    <p style="margin: 0px; color: rgb(198, 59, 59);font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;"><b>SALES DAY</b></p>
+                    <P style="margin: 0px; font-size: xx-large; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;"><b>Cloud S23 | RUN</b></P>
+                    <p style="margin: 0px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;"><b>Running shoe</b></p>
+                    <ol class="list">
+                        <li>pair: <u>$100</u> $80</li>
+                        <li>pairs:m$159</li>
+                    </ol>
+                    <p style="font-size: large;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><b>Colors:</b><a class="sg" href="#">SIZE GUID</a></p>
+                    <div class="sho">
+                        <img src="sho1.png" alt=""><img src="sho2.png" alt=""><img src="sho3.png" alt="">
+                        
+                    </div>
+                    <img id="iimg" src="sho4.png" alt="">
+                    <div class="cartbtn"> <button id="cartbutn">ADD TO CART</button></div>
+                       <img style="position:fixed ; right: 40px; top: 550px; height: 90px;" src="image.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
